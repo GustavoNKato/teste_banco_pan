@@ -7,7 +7,5 @@ import com.api.models.Cliente;
 
 @Repository
 public interface ClienteRepository extends JpaRepository<Cliente, String> {
-
-	//public List<Cliente> findByCpf(String cpf);
 	
 }
