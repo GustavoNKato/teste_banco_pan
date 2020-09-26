@@ -53,47 +53,6 @@ public class EstadoController {
         body.removeAll(list);
         body.addAll(0, list);
 		
-		
-		
-		
-			
-//			if (estadoDTO.getSigla().equals("RJ")) {
-//				body.set(body.indexOf(estadoDTO), body.get(1));
-//				body.set(1, estadoDTO);
-//			}
-//			
-//			if (estadoDTO.getSigla().equals("SP")) {
-//				body.set(body.indexOf(estadoDTO), body.get(0));
-//				body.set(0, estadoDTO);
-//			}
-		
-		
-//		EstadoDTO sp = new EstadoDTO();
-//		EstadoDTO rj = new EstadoDTO();
-//
-//		for (int i = 0; i < body.size(); i++) {
-//
-//			if (body.get(i).getSigla().equals("SP")) {
-//				sp.setId(body.get(i).getId());
-//				sp.setNome(body.get(i).getNome());
-//				sp.setSigla(body.get(i).getSigla());
-//				sp.setRegiao(body.get(i).getRegiao());
-//				body.set(0, sp);
-//				i = i - 1;
-//			}
-//
-//			if (body.get(i).getSigla().equals("RJ")) {
-//				rj.setId(body.get(i).getId());
-//				rj.setNome(body.get(i).getNome());
-//				rj.setSigla(body.get(i).getSigla());
-//				rj.setRegiao(body.get(i).getRegiao());
-//				body.set(1, rj);
-//				i = i - 1;
-//			}
-//		}
-
-//		body.add(0, rj);
-//		body.add(0, sp);
 		return body;
 	}
 
