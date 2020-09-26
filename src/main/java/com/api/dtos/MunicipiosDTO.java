@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class MunicipiosDTO {
     private String id;
     private String nome;
-    private MicrorregiaoDTO microrregiaoa;
+    private MicrorregiaoDTO microrregiao;
 
     public String getId() {
         return id;
@@ -25,10 +25,10 @@ public class MunicipiosDTO {
     }
 
     public MicrorregiaoDTO getMicrorregiao() {
-        return microrregiaoa;
+        return microrregiao;
     }
 
-    public void setMicrorregiao(MicrorregiaoDTO microrregiaoa) {
-        this.microrregiaoa = microrregiaoa;
+    public void setMicrorregiao(MicrorregiaoDTO microrregiao) {
+        this.microrregiao = microrregiao;
     }
 }

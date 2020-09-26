@@ -1,4 +1,4 @@
-package com.api.repositories;
+package com.api.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
