@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.api.exception.ResourceNotFoundException;
 import com.api.models.Cliente;
 import com.api.repositories.ClienteRepository;
 
@@ -19,8 +20,10 @@ public class ClienteService {
 	}
 	
 	public Cliente buscarPorCPF(String cpf) {
-		Cliente obj = clienteRepository.getOne(cpf);
-		return obj;
+		return clienteRepository.findById(cpf).orElseThrow(() -> new ResourceNotFoundException("Customer with cpf " + cpf + " not found"));
+
 	}
+	
+	
 	
 }
