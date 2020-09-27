@@ -4,6 +4,10 @@
 
 1. JDK 8
 1. Maven 4
+1. Framework: Spring Boot
+1. Testes unitários: Junit
+1. Mock: Mockito
+1. Database em memória
 
 ### Running
 
