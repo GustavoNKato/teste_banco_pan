@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 import com.api.dtos.EnderecoDTO;
 
 @RestController
-@RequestMapping("/cep")
+@RequestMapping("/endereco")
 @CrossOrigin(origins = "*")
 public class CepController {
 
